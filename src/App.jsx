@@ -14,8 +14,6 @@ function App() {
   
   return (
     <>
-      <h2>祝！　ヴィンランド・サガ完結　感想共有ページ</h2>
-
       <Router>
         <Routes>
           <Route path="/login" element= {<Login />} />
