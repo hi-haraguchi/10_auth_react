@@ -24,7 +24,7 @@ const Header = ({ onMenuClick }) => {
             <MenuIcon />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            祝！　　ヴィンランド・サガ完結！！　　感想を語り合おう！！！
+            祝！『ヴィンランド・サガ』完結　 感想投稿ページ
         </Typography>
         </Toolbar>
     </AppBar>

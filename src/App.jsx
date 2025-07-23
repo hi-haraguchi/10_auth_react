@@ -22,10 +22,6 @@ function App() {
           <Route path="/feelingstimeline" element= {<FeelingsTimeline />} />
         </Routes>
       </Router>
-      
-
-
-
     </>
   );
 }
