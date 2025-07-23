@@ -1,8 +1,15 @@
 import React from 'react'
+import Footer from '../../layout/Footer'
+import HeadDrawer from '../../layout/HeadDrawer'
 
 const Record = () => {
   return (
-    <div>Record</div>
+    <div>
+      <HeadDrawer />
+      Record
+      <Footer/>
+      </div>
+      
   )
 }
 

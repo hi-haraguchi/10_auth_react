@@ -1,7 +1,5 @@
 import React from 'react'
-import Header from '../../layout/Header'
 import Footer from '../../layout/Footer'
-import Sidebar from '../../layout/Sidebar'
 import HeadDrawer from '../../layout/HeadDrawer'
 
 const Home
@@ -10,6 +8,9 @@ const Home
     <div>
 
       <HeadDrawer />
+      Home
+      コンセプトとか、完結についての思いを書く予定
+
       <Footer/>
       
     </div>

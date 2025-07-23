@@ -1,8 +1,17 @@
 import React from 'react'
+import Footer from '../../layout/Footer'
+import HeadDrawer from '../../layout/HeadDrawer'
 
 const FeelingsTimeline = () => {
   return (
-    <div>FeelingsTimeline</div>
+    <div>
+      <HeadDrawer />
+      FeelingsTimeline
+      <Footer/>
+
+
+
+    </div>
   )
 }
 

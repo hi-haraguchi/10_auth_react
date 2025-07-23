@@ -16,14 +16,12 @@ const Sidebar = ({ open, onClose }) => {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {/* 「未定」のメニュー項目 */}
-        <ListItem key="まだ項目未定" disablePadding>
+        <ListItem key="まだ項目考え中" disablePadding>
           <ListItemButton>
-            <ListItemText primary="まだ項目未定" />
+            <ListItemText primary="まだ項目考え中" />
           </ListItemButton>
         </ListItem>
 
-        {/* 「ログアウト」のメニュー項目 */}
         <ListItem key="ログアウト" disablePadding>
           <ListItemButton>
             <ListItemText primary="ログアウト" />
