@@ -133,6 +133,13 @@ const Login = () => {
       <Box sx={{ mt: 3, display: 'flex', justifyContent: 'start' }}>
         <Button variant="contained" type='submit'>送信</Button>
       </Box>
+      
+      <p>例）</p>
+      <p>1 ノルマンニ</p>
+      <p>2 戦場よりの使者</p>
+      <p>7 王子生還</p>
+      <p>13 最初の手段</p>
+      <p>18 借り物の命</p>
 
       <Snackbar open={openSnackbar} autoHideDuration={6000} onClose={handleCloseSnackbar}>
         <Alert onClose={handleCloseSnackbar} severity={snackbarSeverity} sx={{ width: '100%' }}>
