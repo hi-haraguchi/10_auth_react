@@ -11,7 +11,7 @@ const Home
       <HeadDrawer />
 
 
-      <Typography variant="h6" component="legend" sx={{ mb: 2, textAlign: 'center', mt: 8  }}>
+      <Typography variant="h6" component="legend" sx={{ mb: 2, textAlign: 'center', mt: 16  }}>
         とうとう、ヴィンランド・サガが完結してしまいました。
       </Typography>   
 
@@ -20,7 +20,7 @@ const Home
       </Typography>
 
       <Typography variant="h6" component="legend" sx={{ mb: 2, textAlign: 'center', mt: 4  }}>
-        感想を入力すると、一覧表示の画面にも表示されるので、入力してください。
+        感想を入力すると、一覧表示の画面にも表示されるので、みんなで共有できればと思います。
       </Typography>        
 
       <Footer/>
