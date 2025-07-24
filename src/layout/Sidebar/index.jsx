@@ -18,7 +18,7 @@ const Sidebar = ({ open, onClose }) => {
   const handleLogout = async () => {
     try {
       // PHPのログアウトスクリプトへのURL
-      const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/logout.php', {
+      const response = await fetch('https://hh1000yvoyage.sakura.ne.jp/gs20250724auth_php_sakura/logout.php', {
         method: 'GET', // セッション破棄なのでGETでも良いですが、POSTでも可
         credentials: 'include', // セッションクッキーを送信するために必要
       });

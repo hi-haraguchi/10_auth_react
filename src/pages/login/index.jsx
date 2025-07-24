@@ -25,7 +25,7 @@ const Login = () => {
 
     try {
       // PHPのログイン処理スクリプトへのURL
-      const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/login_act.php', {
+      const response = await fetch('https://hh1000yvoyage.sakura.ne.jp/gs20250724auth_php_sakura/login_act.php', {
         method: 'POST',
         credentials: 'include',
         headers: {

@@ -28,7 +28,7 @@ const RecordForm = () => {
 
     try {
       // PHPスクリプトへのURLを設定
-      const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/feelings_create.php', {
+      const response = await fetch('https://hh1000yvoyage.sakura.ne.jp/gs20250724auth_php_sakura/feelings_create.php', {
         method: 'POST',
         credentials: 'include',
         headers: {

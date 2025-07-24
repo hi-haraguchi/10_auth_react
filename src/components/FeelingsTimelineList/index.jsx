@@ -17,7 +17,7 @@ const FeelingsTimelineList = () => {
     const fetchData = async () => {
       try {
         // PHPスクリプトへのURL。ローカル環境での例。
-        const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/feelings_read.php', {
+        const response = await fetch('https://hh1000yvoyage.sakura.ne.jp/gs20250724auth_php_sakura/feelings_read.php', {
           method: 'GET', 
           credentials: 'include',
         });
