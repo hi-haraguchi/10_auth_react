@@ -27,6 +27,7 @@ const Login = () => {
       // PHPのログイン処理スクリプトへのURL
       const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/login_act.php', {
         method: 'POST',
+        credentials: 'include',
         headers: {
           'Content-Type': 'application/json', // JSON形式で送信
         },
@@ -80,8 +81,8 @@ const Login = () => {
 
   return (
     <Box
-      component="form"
-      onSubmit={handleSubmit(onSubmit)}
+    component="form"
+    onSubmit={handleSubmit(onSubmit)}
       sx={{
         p: 3,
         // border: '1px solid #ccc',
