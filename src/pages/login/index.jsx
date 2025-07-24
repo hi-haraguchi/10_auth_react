@@ -57,7 +57,7 @@ const Login = () => {
         // 例: navigate('/feelings-timeline'); // React Routerのパスに合わせる
         // もしPHP側でfeelings_read.phpにリダイレクトする設計であれば、
         // そのままリダイレクトするのではなく、React側でそのページに遷移させるのが良い
-        navigate('/'); // 例: タイムライン表示ページのパス
+        navigate('/home'); // 例: タイムライン表示ページのパス
       } else {
         // ログイン失敗
         setSnackbarMessage(result.message || 'ログインに失敗しました。ユーザー名またはパスワードが正しくありません。');
