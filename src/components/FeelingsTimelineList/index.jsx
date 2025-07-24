@@ -6,7 +6,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import Typography from '@mui/material/Typography'; // Typographyコンポーネントもインポート
+import Typography from '@mui/material/Typography';
 
 const FeelingsTimelineList = () => {
   const [feelingsData, setFeelingsData] = useState([]);
@@ -17,7 +17,10 @@ const FeelingsTimelineList = () => {
     const fetchData = async () => {
       try {
         // PHPスクリプトへのURL。ローカル環境での例。
-        const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/feelings_read.php'); 
+        const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/feelings_read.php', {
+          method: 'GET', 
+          credentials: 'include',
+        });
 
         if (!response.ok) {
           // HTTPエラーの場合
