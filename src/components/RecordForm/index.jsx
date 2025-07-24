@@ -30,6 +30,7 @@ const RecordForm = () => {
       // PHPスクリプトへのURLを設定
       const response = await fetch('http://localhost/gs202506php/gs20250724auth_php/feelings_create.php', {
         method: 'POST',
+        credentials: 'include',
         headers: {
           'Content-Type': 'application/json', // JSON形式で送信
         },

@@ -1,12 +1,24 @@
-# React + Vite
+# 祝！『ヴィンランド・サガ』完結　 感想投稿ページ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
 
-Currently, two official plugins are available:
+ログインして、感想を入力して、一覧表示するページです。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 工夫した点・こだわった点
 
-## Expanding the ESLint configuration
+フロントエンドを React で作成しました。
+すでに、いろいろなテンプレートがあるので、それを上手く組み合わせました。
+入力部分やモーダル、タイムラインもそこまで苦労せず作成できました。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 難しかった点・次回トライしたいこと
+
+React と php の連携が難しく、長い時間苦戦しました。これであっているかも不安です。
+管理者機能も追加（投稿内容の管理や削除など）も間に合わなかったので
+次に挑戦したいです。
+
+## 感想・シェアしたいこと
+
+フロントエンドとの連携は Laravel を使うともっとうまくできるそうなので、今後挑戦してみたいです。
+php の部分については、こちらをご覧ください。
+
+また題材の、『ヴィンランド・サガ』というマンガは非常におすすめです。アニメにもなっていますのでご興味ある方はぜひ。
