@@ -28,7 +28,7 @@ const Sidebar = ({ open, onClose }) => {
         const data = await response.json();
         console.log(data.message); // "ログアウトしました。"
         // ログアウト成功後、ログインページに遷移
-        navigate('/login'); // あなたのログインページのパスに合わせる
+        navigate('/'); // あなたのログインページのパスに合わせる
         onClose(); // サイドバーを閉じる
       } else {
         // ログアウト失敗（サーバー側で何か問題があった場合）
