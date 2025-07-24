@@ -15,7 +15,7 @@ const Footer = () => {
 
   // 各ボタンに対応するルート情報とパスを定義
   const routes = [
-    { label: "ホーム", icon: <InputIcon />, path: "/" },
+    { label: "ホーム", icon: <InputIcon />, path: "/home" },
     { label: "入力", icon: <EditNoteIcon />, path: "/record" },
     { label: "感想の一覧", icon: <CollectionsBookmarkIcon />, path: "/feelingstimeline" },
   ];
